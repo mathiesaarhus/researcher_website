@@ -16,9 +16,18 @@ sass:
     sass_dir: _sass
 
 nav:
- - name: "About"
-   link: "/researcher/"
- - name: "Resume"
-   link: "resume.pdf"
+ - name: "Publications"
+   link: "/https://portal.findresearcher.sdu.dk/en/persons/mathies/publications//" 
+ - name: "CV"
+   link: "CV.pdf"
+ - name: "Code"
+   link: "https://mathiesaarhus.github.io/"
  - name: "Contact"
-   link: "contact"
+   link: "mailto:mathies@sdu.dk" 
+ - name: "CV"
+   link: "CV.pdf"
+ - name: "Code"
+   link: "https://mathiesaarhus.github.io/"
+ - name: "Contact"
+   link: "mailto:mathies@sdu.dk" 
+

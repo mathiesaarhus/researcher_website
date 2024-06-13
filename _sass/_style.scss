@@ -3,7 +3,12 @@
 /*
  * Basic
  */
-
+body {
+    margin: 0;
+    font-family:  "Crimson Pro", sans-serif; /* Change the font family to Arial */
+    height: 100%;
+    text-align: center; /* Center align the text */
+}
 html {
     height: 100%;
     margin: 0;
@@ -11,7 +16,7 @@ html {
 }
 body {
     margin: 0;
-    font-family: "Inconsolata";
+    font-family: "Crimson Pro", sans-serif; /* Change the font family to Crimson Pro */
     height: 100%;
 }
 a {
