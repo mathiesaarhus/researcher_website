@@ -14,7 +14,11 @@ html {
     margin: 0;
     padding: 0;
 }
-body {
+.profile-picture {
+    border: 5px solid #333; /* Dark grey border */
+    padding: 10px; /* Space around the photo to act as part of the frame */
+    display: inline-block; /* Ensures padding and border are applied correctly */
+}body {
     margin: 0;
     font-family: "Crimson Pro", sans-serif; /* Change the font family to Crimson Pro */
     height: 100%;
@@ -131,6 +135,20 @@ hr {
 		margin: 0;
 	}
 }
+
+.social-links {
+    margin-top: 20px;
+  }
+  
+  .social-links a {
+    margin-right: 10px;
+    color: #333; /* Change icon color */
+    font-size: 24px; /* Change icon size */
+  }
+  
+  .social-links a:hover {
+    color: #1DA1F2; /* Twitter blue for hover effect, adjust for LinkedIn as needed */
+  }
 
 @import "typography";
 @import "tables";
